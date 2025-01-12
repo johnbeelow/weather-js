@@ -1,3 +1,5 @@
+
+
 # Overview
 
 This application is a simple yet functional weather forecast tool written in plain JavaScript. It provides users with the ability to find real-time weather information and view detailed forecasts for the current day. The application uses Parcel for efficient module bundling and high performance.
