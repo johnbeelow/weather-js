@@ -1,39 +1,39 @@
-# Обзор
+# Overview
 
-Данное приложение представляет собой простой, но функциональный прогноз погоды, написанный на чистом JavaScript. Оно предоставляет пользователю возможность находить информацию о погоде в реальном времени, а также просматривать подробности прогноза на текущий день. Приложение использует Parcel для удобного объединения модулей и обеспечения высокой производительности.
+This application is a simple yet functional weather forecast tool written in plain JavaScript. It provides users with the ability to find real-time weather information and view detailed forecasts for the current day. The application uses Parcel for efficient module bundling and high performance.
 
-## Характеристики
+## Features
 
-- **Поиск города**: Быстрый и интуитивно понятный поиск информации о погоде в любом городе.
-- **Просмотр текущей погоды**: Вывод ключевых показателей, таких как температура, влажность, скорость ветра и другие.
-- **Данные на день**: Подробный список погодных условий на весь день, включая почасовые изменения.
-- **Работа с избранным**: Возможность добавлять и удалять города в список избранного для быстрого доступа.
+- **City Search**: Quick and intuitive search for weather information in any city.
+- **Current Weather View**: Displays key metrics such as temperature, humidity, wind speed, and more.
+- **Daily Data**: A detailed list of weather conditions for the entire day, including hourly changes.
+- **Favorites Management**: Allows users to add and remove cities from a favorites list for quick access.
 
-## Установка
+## Installation
 
-Чтобы начать работу с приложением, выполните следующие шаги:
+To get started with the application, follow these steps:
 
-1. Клонируйте репозиторий:
+1. Clone the repository:
    ```bash
-   git clone <url-репозитория>
+   git clone https://github.com/johnbeelow/weather-js.git
    ```
 
-2. Перейдите в каталог проекта:
+2. Navigate to the project directory:
    ```bash
-   cd <название-каталога>
+   cd weather-js
    ```
 
-3. Установите Parcel для объединения модулей:
+3. Install Parcel for module bundling:
    ```bash
    npm install --save-dev parcel
    ```
 
-4. Установите необходимые библиотеки:
+4. Install the required libraries:
    ```bash
    npm install date-fns --save
    npm i js-cookie
    ```
 
-Теперь приложение готово к использованию! Для запуска воспользуйтесь Parcel:
+Now the application is ready to use! To start it, use Parcel:
 ```bash
-npm start
+npx parcel index.html 
