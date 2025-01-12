@@ -4,8 +4,6 @@
 
 This application is a simple yet functional weather forecast tool written in plain JavaScript. It provides users with the ability to find real-time weather information and view detailed forecasts for the current day. The application uses Parcel for efficient module bundling and high performance.
 
-<img width="927" alt="Снимок экрана 2025-01-12 в 19 08 30" src="https://github.com/user-attachments/assets/1af188ad-70c0-4143-90c3-c3a02d16eb52" />
-
 ## Features
 
 - **City Search**: Quick and intuitive search for weather information in any city.
