@@ -34,8 +34,7 @@ To get started with the application, follow these steps:
 
 4. Install the required libraries:
    ```bash
-   npm install date-fns --save
-   npm i js-cookie
+   npm install
    ```
 
 Now the application is ready to use! To start it, use Parcel:
